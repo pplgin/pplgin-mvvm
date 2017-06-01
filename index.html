@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>es6 proxy</title>
+</head>
+<body>
+做一个测试
+<div id="app">
+  <input type="text"  pp-model="title">
+  <textarea  pp-model="name"></textarea>
+  <p>{{title}}</p>
+  <p>
+    <span>--{{title}}-- || {{name}}</span>
+  </p>
+  <p>{{welcome}}</p>
+  <p>{{params}}</p>
+  <button pp-click="sayHello()">我就点击一下</button>
+  <button pp-click="sayHello1(1,34,5,5,5)">有参数点击</button>
+</div>
+<script src="/dist/bundle.js"></script>
+</body>
+</html>
